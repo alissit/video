@@ -1,0 +1,471 @@
+
+@font-face {
+font-family: "Barbarian";
+src: url("Barbarian NS.ttf");
+}
+@font-face {
+font-family: "LetsEat";
+src: url("lets eat.ttf");
+}
+
+
+@media (min-width: 1281px) {
+  
+body {
+  font-size:20px;
+}
+
+
+.margin_small{
+  margin-left:-18px;
+}
+.margin_less{
+  margin-left:-24px;
+}
+
+.margin_less_more{
+  margin-left:-50px;
+}
+
+}
+  
+
+
+.container {
+
+  max-width: 1000px;
+}
+
+.main-page {
+   margin:0 auto;
+   text-align:center;
+   top:0;
+   left:0;
+   position:relative;
+   padding:0;
+}
+
+picture {
+  position:relative; 
+  top:0; 
+  left:0; 
+}
+
+
+a:hover {
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+.cross {
+  position:absolute; 
+  top:50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index:-1;
+  width: 300px;
+}
+
+p {
+  text-align:justify;
+}
+
+@media (min-width: 767px) {
+  
+    .cross {
+      width: 600px;
+    }
+  
+}
+
+@media (min-width: 801px) {
+  
+    .cross {
+      width: 325px;
+    }
+  
+}
+
+@media (min-width: 1023px) {
+  
+    .cross {
+      width: 350px;
+    }
+  
+}
+
+@media (min-width: 1281px) {
+  
+    .cross {
+      width: 500px;
+    }
+  
+}
+
+.title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #8E8E52;
+  font-size:1.8em;
+  font-family: Barbarian;
+}
+
+.title-italic{
+  font-style:italic;
+  font-size:1.5em;
+  font-family: Barbarian;
+}
+.sub-title {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#5CFA3A;
+  font-size:1.2em;
+}
+
+.title_marks {
+  font-family: LetsEat;
+}
+
+@media (min-width: 767px) {
+
+.sub-title {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:1.2em;
+  font-family: 'Julee', cursive;
+}
+.title {
+  white-space:nowrap;
+
+}
+
+}
+
+
+.sub-title_two {
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:1.2em;
+  font-family: 'Julee', cursive;
+}
+
+.author {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:.9em;
+  font-family: 'Julee', cursive;
+}
+
+.author_sub {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:.9em;
+  font-family: 'Julee', cursive;
+}
+.pageone {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color:white;
+
+}
+.pagetwo {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color:white;
+
+}
+.pagethree {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color:white;
+
+}
+.pagefour {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+/*mobile and small tablets*/
+@media only screen and (max-width: 690px) and (min-width: 1px){
+.title {
+  font-size:1.5em;
+}
+.sub-title {
+  width:80%;
+}
+.sub-title_two {
+  position: absolute;
+  top: 87%;
+}
+
+.pageone {
+    top: 40%;
+    left: 15%;
+}
+.pagetwo {
+    top: 60%;
+    left: 15%;
+}
+.pagethree {
+    top: 40%;
+    left: 85%;
+}
+.pagefour {
+  top: 60%;
+    left: 85%;
+}
+}
+@media only screen and (min-width: 690px){
+.pageone {
+  top: 50%;
+  left: 10%;
+}
+.pagetwo {
+  top: 50%;
+  left: 20%;
+
+}
+.pagethree {
+  top: 50%;
+  left: 80%;
+
+}
+.pagefour {
+  top: 50%;
+  left: 90%;
+}
+}
+
+/*Pages Styling*/
+
+.header-title {
+  font-family: Felix Titling;
+  font-size: 1.2em;
+  text-align:center;
+}
+
+.header-title_big {
+  font-family: Felix Titling;
+  font-style:italic;
+  font-size: 1.4em;
+}
+
+.header-title_sub{
+  font-size:.9em;
+  text-align:center;
+}
+.header-title_page4{
+   font-family: Felix Titling;
+  font-size: 1.4em;
+  text-decoration: underline; 
+  text-align:center;
+}
+
+.img_subtitle{
+  font-size:.7em;
+  font-style:italic;
+  text-align:center;
+}
+
+.equal_height {
+  height:auto;
+}
+
+@media (min-width: 1200px) {
+
+  .equal_height {
+  height:125px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .equal_height {
+  height:80px;
+}
+}
+
+@media (min-width: 992px) {
+
+  .equal_height {
+  height:125px;
+}
+.img_subtitle{
+
+  white-space: nowrap;
+}
+}
+
+.equal_width{
+  width:auto;
+}
+
+
+.text_center {
+  text-align:center;
+}
+
+ img.img-page_5{
+  width:auto;
+  height:180px;
+}
+img.width_auto{
+  width:auto;
+}
+
+.header-title_page9 {
+font-style: italic;
+text-align:center;
+}
+
+.text_red {
+  color:red;
+}
+
+.header-title_page13{
+  text-align: center;
+  font-family: "Chiller";
+  font-size:2em;
+}
+
+.header-title_page15 {
+text-align: center;
+  font-family: papyrus;
+  font-size:1.8em;
+}
+
+.header-title_page16 {
+text-align: center;
+  font-family: informal roman;
+  font-size:1.8em;
+}
+
+.header-title_page18{
+ text-align: center;
+  font-family: Algerian;
+}
+
+.header-title_page19 {
+  text-align: center;
+  font-family: Niagara Engraved;
+    font-size:1.8em;
+}
+
+.header-title_page21 {
+  font-family: rockwell extra;
+  text-align:center;
+  font-size:1.2em;
+}
+
+.header-title_page25 {
+font-family: copperplate gothic bold;
+font-size:1.8em;
+
+}
+
+.header-title_page26h4 {
+  font-family: algerian;
+  font-size: 1.2em;
+}
+
+.header-title_page26p {
+  font-family: algerian;}
+
+
+.header-title_page26h {
+  font-family: mistral;
+  font-size: 1.8em;
+}
+
+.text_underlinered {
+  text-decoration: underline;
+  color:red;
+}
+
+.header_page30{
+  font-family: Bernard MT;
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+
+.text_purple {
+  color:purple;
+}
+
+.header_page32 {
+  font-family: andalus;
+  font-size:2em;
+}
+
+.page30_final {
+ font-family: viner hand itc;
+ font-weight:bold;
+
+}
+
+.back a{
+  padding:30px;
+
+  color:black;
+  text-decoration:none;
+
+}
+
+.next a{
+  padding:30px;
+
+  color:black;
+  text-decoration:none;
+
+}
+
+.home a {
+   padding:30px;
+
+  color:black;
+  text-decoration:none;
+}
+
+.page_button{
+    color:#FBF967;
+  text-decoration:none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+z-index:9;
+    text-align: center;
+    font-size: 16px;
+
+}
+.button {
+  transition: transform .2s;
+}
+.button:hover {
+  transform: scale(1.2);
+}
+
+.button-container {
+  position:relative;
+  text-align:center;
+}
+
