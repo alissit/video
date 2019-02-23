@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+
+
+
+	<body>
+<style>
+
+.video-wrap{
+	width: 377px;
+    height: 625px;
+    bottom: 0px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+    
+</style>
+
+
+  <section class="section-block featured-media window-height tm-slider-parallax-container">
+
+                  <div class="video-wrap">  
+                    <video loop autoplay autobuffer muted playsinline id="myVideo">
+                            <source type="video/mp4" src="assets/ama-website-1.mp4" />
+                    </video>
+                </div>
+                    
+               
+    </section>
+ <script src="js/canvas-video-player.js"></script>
+    
+    <script>
+
+	var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
+	if (isIOS) {
+
+		var canvasVideo = new CanvasVideoPlayer({
+			videoSelector: '.video',
+			canvasSelector: '.canvas',
+			timelineSelector: false,
+			autoplay: true,
+			makeLoop: true,
+			pauseOnClick: false,
+			audio: false
+		});
+
+	}else {
+
+		// Use HTML5 video
+		//document.querySelectorAll('.canvas')[0].style.display = 'none';
+
+	}
+
+
+
+</script>
+
+	</body>
+</head>
+</html>

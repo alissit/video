@@ -1,0 +1,449 @@
+<!doctype html>
+<html>
+<head>
+
+
+
+	<body>
+<style>
+    #preload {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #333;
+        z-index: 2000;
+        text-align: center;
+    }
+    .vidsec{
+        float: left;
+        width: 50%;
+        padding-bottom: 15rem;
+        padding-top: 15rem;
+    }
+    .video{
+         width: 100%!important;
+    height: auto!important;
+    }
+    .videooverlay{
+        height:100%;
+        width:100%;
+        position:absolute;
+          background: linear-gradient(to bottom, #3a3a3a 0%,#000000 100%);
+            z-index: 2;
+    opacity: 0.7;
+    }
+    .tms-slide > video {
+    height:auto!important;
+    }
+        h2{
+        color:#fff;
+        font-size:4vw;
+    }
+    
+    @media only screen and (max-width: 768px){
+    .vidsec{
+        float: left;
+        width: 100%;
+        padding-bottom: 15rem;
+        padding-top: 15rem;
+    }
+
+}
+        .startan{
+        display:none;
+    }
+        .startmid{
+                display:none;
+    }
+</style>
+
+
+  <section class="section-block featured-media window-height tm-slider-parallax-container">
+
+        <!-- Scroll Down -->
+        <div class="scroll-down" style="display:none;">
+            <a href="#about" class="scroll-link">Scroll Down</a>
+        </div>
+        <!-- Scroll Down End -->
+      
+        <div class="tm-slider-container full-width-slider" data-parallax data-external-padding="60" data-animation="slide" data-scale-under="960">
+            <a data-scroll="" class="mouse-icon"> <span class="mouse-wheel"></span> </a>
+            <ul  class="tms-slides">
+                <li  class="tms-slide" style="background-position:center;background-size:cover;" data-image data-force-fit data-animation="slideTopBottom">
+                    
+                    
+                    <div id="preload" class="tms-content-inner multibg">
+
+                        <div class="tms-content">
+                            <div class="tms-content-inner center">
+                                <div class="row">
+                                    <object id="logo">
+                                        <embed src="/Content/img/r3.svg" width="60%" />
+                                    </object>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="videooverlay"></div>
+                    <div class="tms-content">
+                        <div class="tms-content-inner center">
+                            <div class="row">
+                                <div class="column width-12">
+                                    <h2> We build digital <span style="font-weight: 700;">brands</span><br /> that <span style="font-weight: 700;">engage</span> your <span style="font-weight: 700;">Target Market</span></h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <video loop autoplay autobuffer muted playsinline style="height:auto!important;">
+                            <source type="video/mp4" src="/assets/ama-website-1.mp4" />
+                    </video>
+                    
+                </li>
+                <li class="tms-slide" style="background-position:center;background-size:cover;background-image:url('/content/images/gym.jpg')" data-image data-force-fit data-animation="slideTopBottom">
+                    <div class="videooverlay"></div>
+                    <div class="tms-content">
+                        <div class="tms-content-inner center">
+                            <div class="row">
+                                <div class="column width-12">
+                                    <h1 class="tms-caption title-xlarge color-white lspacing-medium"
+                                        data-animate-in="preset:scaleOut;duration:1000ms;"
+                                        data-no-scale>
+                                        Gymshark
+                                    </h1>
+                                    <div class="clear"></div>
+                                    <a href="/projects/gymshark" style="text-transform:uppercase;" class="flink tms-caption font-alt-1 color-white lspacing-xlarge"
+                                       data-animate-in="preset:slideInUpShort;duration:600ms;delay:400ms;"
+                                       data-no-scale>
+                                        View Project
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="scroll-down" style="opacity: 1;">
+                        <span class="arrow-down">
+                        </span>
+                    </div>
+                </li>
+
+                <li class="tms-slide" style="background-position:center;background-size:cover;background-image:url('/content/images/argos.jpg')" data-image data-force-fit data-animation="scaleOut">
+                    <div class="videooverlay"></div>
+                    <div class="tms-content">
+                        <div class="tms-content-inner">
+                            <div class="row">
+                                <div class="column width-12 center">
+                                    <h1 class="tms-caption title-xlarge color-white lspacing-medium"
+                                        data-animate-in="preset:slideInUpShort;duration:1000ms"
+                                        data-no-scale>
+                                        Argos
+                                    </h1>
+                                    <div class="clear"></div>
+                                    <a href="/projects/argos" style="text-transform:uppercase;" class="flink tms-caption font-alt-1 color-white lspacing-xlarge"
+                                       data-animate-in="preset:slideInUpShort;duration:600ms;delay:400ms;"
+                                       data-no-scale>
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="scroll-down" style="opacity: 1;">
+                        <span class="arrow-down">
+                        </span>
+                    </div>
+                </li>
+                <li class="tms-slide" style="background-position:center;background-size:cover;background-image:url('/content/img/projects/rus-header.jpg')" data-image data-force-fit data-animation="scaleIn">
+                    <div class="videooverlay"></div>
+                    <div class="tms-content">
+                        <div class="tms-content-inner">
+                            <div class="row">
+                                <div class="column width-12 center">
+                                    <h1 class="tms-caption title-xlarge color-white lspacing-medium"
+                                        >
+                                        DJ Russke App
+                                    </h1>
+                                    <div class="clear"></div>
+                                    <a href="/projects/dj-russke-app" style="text-transform:uppercase;" class="flink tms-caption font-alt-1 color-white lspacing-xlarge"
+                                       data-animate-in="preset:slideInUpShort;duration:600ms;delay:400ms;"
+                                       data-no-scale>
+                                        View Project
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="scroll-down" style="opacity: 1;">
+                        <span class="arrow-down">
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+ <script src="/Content/js/canvas-video-player.js"></script>
+    
+    <script>
+
+
+        $(document).ready(function () {
+
+            AOS.init();
+
+            $("#openmen").click(function () {
+                //$(".bigmenu").animate({
+                //   opacity: 0,                 
+                //});
+
+        
+
+                $('.blur').delay(700).css({
+                    "-webkit-filter": "blur(5px)",
+                    "filter": "blur(5px)"
+                });
+
+                setTimeout(function () {
+                    $(".menlogo").fadeIn(550);
+                }, 250);
+                setTimeout(function () {
+                    $(".menmsg").fadeIn(550);
+                   
+                }, 560);
+
+
+                $(".bigmenu").fadeIn(700, function () {
+
+                    
+                    
+                });
+
+
+            });
+
+
+
+            $("#closemen").click(function () {
+                //$(".bigmenu").animate({
+                //    opacity: 0,                 
+                //});
+    
+                $('.blur').css({
+                    "-webkit-filter": "blur(0)",
+                    "filter": "blur(0)"
+                });
+                $(".bigmenu").fadeOut(700, function () {
+
+                    $(".menlogo").hide();
+                    $(".menmsg").hide();
+                  
+                   
+                });
+            });
+
+
+            $(".menit").click(function () {
+                var link = this.getAttribute('href');
+                $(".endan").addClass("moo");
+                $(".endan2").addClass("moo2");
+                $(".endan3").addClass("moo3");
+                event.preventDefault();
+                setTimeout(function () {
+                    window.location.href = link;
+                }, 1000);          
+            });
+
+            $(".flink").click(function () {
+                var link = this.getAttribute('href');
+                $(".endan").addClass("moo");
+                $(".endan2").addClass("moo2");
+                $(".endan3").addClass("moo3");
+                event.preventDefault();
+                setTimeout(function () {
+                    window.location.href = link;
+                }, 1000);
+            });
+
+            $(".overlay-link").click(function () {
+                event.preventDefault();
+                var link = this.getAttribute('href');
+                $(".endan").addClass("moo");
+                $(".endan2").addClass("moo2");
+                $(".endan3").addClass("moo3");
+                setTimeout(function () {
+                    window.location.href = link;
+                }, 1000);
+            });
+            
+
+            $(".btlink a").click(function () {
+                var link = this.getAttribute('href');
+                $(".endan").addClass("moo");
+                $(".endan2").addClass("moo2");
+                $(".endan3").addClass("moo3");
+                event.preventDefault();
+                setTimeout(function () {
+                    window.location.href = link;
+                }, 1000);
+            });
+
+
+            $(".menit").mouseleave(function () {
+                //console.log($.trim($('.menmsg').html()));
+                if ($.trim($('.menmsg').html()) != 'We work hard, like to have fun and<br>genuinely give a sh*t about your brand.') {
+                    $('.menmsg').fadeOut('fast', function () {                     
+                        $('.menmsg').html('We work hard, like to have fun and<br />genuinely give a sh*t about your brand.');
+                        $('.menmsg').fadeIn('fast');
+                    });
+                }
+                //$(this).animate({
+                //    paddingLeft: 25,
+
+                //});
+        
+            });
+
+            $("#about2").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html('Award-winning team based in Birmingham,<br />passionate about crafting brands.');
+                    $('.menmsg').fadeIn('fast');
+                });
+                
+               
+            });
+
+            $("#work").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html("We've developed hundreds of brands,<br />we have pick a few case studies.");
+                    $('.menmsg').fadeIn('fast');
+                });
+            });
+
+
+            $("#ourapproach").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html("Our people, processes and tools are<br /> all entirely geared towards systems thinking.");
+                    $('.menmsg').fadeIn('fast');
+                });
+            });
+
+            $("#services").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html("Our services engage, transform &<br />promote action within your customers.");
+                    $('.menmsg').fadeIn('fast');
+                });
+            });
+
+
+            $("#brand").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html("What is Branding?");
+                    $('.menmsg').fadeIn('fast');
+                });
+            });
+
+
+            $("#portal").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html("A unique platform for continuous development<br />with personal online support.");
+                    $('.menmsg').fadeIn('fast');
+                });
+            });
+            
+
+            $("#contact").mouseenter(function () {
+                $('.menmsg').fadeOut('fast', function () {
+                    $('.menmsg').html("Question, feeback or just want to say,<br />hi? Don't be shy, say hello.");
+                    $('.menmsg').fadeIn('fast');
+                });
+            });
+
+            $('#fullname').val(localStorage.fullname);
+            $('#company').val(localStorage.company);
+            $('#tel').val(localStorage.tel);
+            $('#email').val(localStorage.email);
+
+            $('#submit').click(function () {
+
+                localStorage.setItem("fullname", $('#fullname').val());
+                localStorage.setItem("company", $('#company').val());
+                localStorage.setItem("tel", $('#tel').val());
+                localStorage.setItem("email", $('#email').val());
+
+                $('#val').hide();
+                $('#val').html('');
+
+                if ($('#email').val() == "") {
+                    $('#val').html('*Enter your email address');
+                    $('#val').show();
+                }
+                if ($('#tel').val() == "") {
+                    $('#val').html('*Enter your contact number');
+                    $('#val').show();
+                }
+                if ($('#company').val() == "") {
+                    $('#val').html('*Enter the company you repersent');
+                    $('#val').show();
+                }
+                if ($('#fullname').val() == "") {
+                    $('#val').html('*Enter your full name');
+                    $('#val').show();
+                }
+
+
+                if ($('#val').html() == '') {
+                    $('.request-pan').slideToggle('fast');
+                    $('#request').hide();
+                    
+                    $.post("/callbackpost?name=" + $('#fullname').val() + "&company=" + $('#company').val() + "&tel=" + $('#tel').val() + "&email=" + $('#email').val(), function () {
+                        localStorage.removeItem("fullname");
+                        localStorage.removeItem("company");
+                        localStorage.removeItem("tel");
+                        localStorage.removeItem("email");
+                    });
+
+
+                    $('#done').show();
+                }
+               
+              
+            });
+
+
+            $('#request').click(function () {
+                $('.request-pan').slideToggle('fast');
+                $("#requestArrow").toggleClass('fa-angle-down');
+                $("#requestArrow").toggleClass('fa-angle-up');
+            });
+
+        });
+
+	var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
+	if (isIOS) {
+
+		var canvasVideo = new CanvasVideoPlayer({
+			videoSelector: '.video',
+			canvasSelector: '.canvas',
+			timelineSelector: false,
+			autoplay: true,
+			makeLoop: true,
+			pauseOnClick: false,
+			audio: false
+		});
+
+	}else {
+
+		// Use HTML5 video
+		//document.querySelectorAll('.canvas')[0].style.display = 'none';
+
+	}
+
+
+
+
+
+	</body>
+</head>
+</html>
